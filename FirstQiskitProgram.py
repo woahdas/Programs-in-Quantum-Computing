@@ -60,7 +60,7 @@ circuit.draw()
 from qiskit import Aer #simulator framework for qiskit
 sim_backend = Aer.get_backend("qasm simulator")
 
-job = q.execute(circuit, backend=backend, shots=500) #shots is how many times to run it(?)
+job = q.execute(circuit, backend=sim_backend, shots=500) #shots is how many times to run it(?)
 job_monitor(job)
 
 result = job.result()
