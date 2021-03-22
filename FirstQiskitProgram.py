@@ -1,3 +1,5 @@
+'#This is my first ever program I ever ran relating to quantum computing, on an actual IBM quantum computer, alongside one of their simulators, and my own simulator.
+
 import qiskit as q
 
 circuit = q.QuantumCircuit(2,2) #2 qubits + 2 classical bits
