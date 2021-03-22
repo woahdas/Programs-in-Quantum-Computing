@@ -1,4 +1,4 @@
-'#This is my first ever program I ever ran relating to quantum computing, on an actual IBM quantum computer, alongside one of their simulators, and my own simulator.
+#This is my first ever program I ever ran relating to quantum computing, on an actual IBM quantum computer, alongside one of their simulators, and my own simulator.
 
 import qiskit as q
 
@@ -67,4 +67,3 @@ result = job.result()
 counts = result.get_counts(circuit)
 
 plot_histrogram([counts])
-
