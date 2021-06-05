@@ -56,7 +56,7 @@ circuit.cx(0, 1)
 circuit.measure([0,1], [0,1])
 
 circuit.draw()
-#RUNNING ON A LOCAL SIMULATOR, VERY IMPORTANT, PROBABLY WHAT I'M ALWAYS GOING TO DO IN ALL HONESTY
+#RUNNING ON A *LOCAL SIMULATOR*, VERY IMPORTANT, PROBABLY WHAT I'M ALWAYS GOING TO DO IN ALL HONESTY
 from qiskit import Aer #simulator framework for qiskit
 sim_backend = Aer.get_backend("qasm simulator")
 
